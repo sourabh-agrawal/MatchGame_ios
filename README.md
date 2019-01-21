@@ -8,6 +8,7 @@
     * Match two same cards to score
     * unmatch cards will get flip automatically
     * after 60 seconds game will be over automatically
-    
-![screenshot](Screenshot 2019-01-22 at 3.21.46 AM.png)
+  
+![screenshot](Screenshot 2019-01-22 at 3.21.46 AM.png?raw=true "app screenshot")  
+
 
