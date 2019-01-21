@@ -9,6 +9,6 @@
 * unmatch cards will get flip automatically
 * after 60 seconds game will be over automatically
   
-![App screenshot](https://www.fnordware.com/superpng/pnggrad16rgb.png?raw=true "App screenshot")  
+![App screenshot](./Screenshot 2019-01-22 at 3.21.46 AM.png?raw=true "App screenshot")  
 
 
