@@ -9,6 +9,6 @@
 * unmatch cards will get flip automatically
 * after 60 seconds game will be over automatically
   
-![App screenshot](./Screenshot 2019-01-22 at 3.21.46 AM.png?raw=true "App screenshot")  
+![App screenshot](https://github.com/sourabh-agrawal/MatchGame_ios/blob/master/Screenshot%202019-01-22%20at%203.21.46%20AM.png?raw=true "App screenshot")  
 
 
