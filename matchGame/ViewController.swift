@@ -33,6 +33,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         // Do any additional setup after loading the view, typically from a nib.
         cardArray = model.getCards()
         
@@ -84,7 +85,7 @@ extension ViewController : UICollectionViewDelegate, UICollectionViewDataSource 
     //    next method will create the new collectionViewCell and firstly it will try to reuse the existing one but if that is not present then it will create a new one
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
-
+        
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "CardCell", for: indexPath) as! CardCollectionViewCell
         
         // get the card
@@ -134,7 +135,7 @@ extension ViewController : UICollectionViewDelegate, UICollectionViewDataSource 
         
         // determine if it is the first card or the second card that is being flipped over
         if firstFlippedCardIndex == nil{
-//            print("it is the first card")
+            //            print("it is the first card")
             //it is the first card so set the indexpath
             firstFlippedCardIndex = indexPath
         }else{
@@ -142,13 +143,13 @@ extension ViewController : UICollectionViewDelegate, UICollectionViewDataSource 
             
             // if user flipped the same card again then it's indexpath will be same as firstFlippedCardIndex
             if firstFlippedCardIndex == indexPath{
-//                print("again flipped same card")
+                //                print("again flipped same card")
                 // if user flipped back the first card itself then set it to nil again so that when next card gets sele
                 firstFlippedCardIndex = nil
                 return
             }
             
-//            print("it is the second card")
+            //            print("it is the second card")
             //it is the second card that is being flipped over
             // matching logic
             checkForMatchs(indexPath)
@@ -162,7 +163,7 @@ extension ViewController : UICollectionViewDelegate, UICollectionViewDataSource 
     func checkForMatchs( _ secondFlippedCardIndex : IndexPath ){
         
         //get the cells of the two card that has been revealed
-         let cardOneCell = collectionView.cellForItem(at: firstFlippedCardIndex!) as? CardCollectionViewCell
+        let cardOneCell = collectionView.cellForItem(at: firstFlippedCardIndex!) as? CardCollectionViewCell
         
         let cardTwoCell = collectionView.cellForItem(at: secondFlippedCardIndex) as? CardCollectionViewCell
         

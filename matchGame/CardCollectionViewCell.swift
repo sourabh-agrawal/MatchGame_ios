@@ -22,10 +22,10 @@ class CardCollectionViewCell: UICollectionViewCell {
         
         //  keep track of the card
         self.card = card
-//        print(card.isMatched)
+        //        print(card.isMatched)
         
         if card.isMatched == true {
-//            print("card matched")
+            //            print("card matched")
             // if the card has been matched then make the front and back Image view invisible
             backImageView.alpha = 0
             frontImageView.alpha = 0
@@ -64,7 +64,7 @@ class CardCollectionViewCell: UICollectionViewCell {
     func flipBack(){
         
         // add some delay to the flip back metthod
-//        print("calling flip back method")
+        //        print("calling flip back method")
         DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 0.5) {
             // in the execute parameter i am going to pass the transition
             
@@ -73,7 +73,7 @@ class CardCollectionViewCell: UICollectionViewCell {
     }
     
     func remove(){
-//        print("remove method called")
+        //        print("remove method called")
         //remove both of the cards from being visible
         backImageView.alpha = 0
         

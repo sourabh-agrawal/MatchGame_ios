@@ -15,6 +15,7 @@
 		F1C182D421EFA6560092808F /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C182D321EFA6560092808F /* CardModel.swift */; };
 		F1C182D621EFAAC10092808F /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C182D521EFAAC10092808F /* Card.swift */; };
 		F1C182D821EFAD9D0092808F /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C182D721EFAD9D0092808F /* CardCollectionViewCell.swift */; };
+		F1F8AF6D21F676CA00E09B42 /* Screenshot 2019-01-22 at 3.21.46 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F8AF6C21F676C900E09B42 /* Screenshot 2019-01-22 at 3.21.46 AM.png */; };
 		F1FB32BA21F5D28100F1C819 /* dingcorrect.wav in Resources */ = {isa = PBXBuildFile; fileRef = F1FB32B621F5D28100F1C819 /* dingcorrect.wav */; };
 		F1FB32BB21F5D28100F1C819 /* cardflip.wav in Resources */ = {isa = PBXBuildFile; fileRef = F1FB32B721F5D28100F1C819 /* cardflip.wav */; };
 		F1FB32BC21F5D28100F1C819 /* dingwrong.wav in Resources */ = {isa = PBXBuildFile; fileRef = F1FB32B821F5D28100F1C819 /* dingwrong.wav */; };
@@ -34,6 +35,8 @@
 		F1C182D321EFA6560092808F /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
 		F1C182D521EFAAC10092808F /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		F1C182D721EFAD9D0092808F /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
+		F1F8AF6B21F674EB00E09B42 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F1F8AF6C21F676C900E09B42 /* Screenshot 2019-01-22 at 3.21.46 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2019-01-22 at 3.21.46 AM.png"; sourceTree = "<group>"; };
 		F1FB32B621F5D28100F1C819 /* dingcorrect.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dingcorrect.wav; sourceTree = "<group>"; };
 		F1FB32B721F5D28100F1C819 /* cardflip.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = cardflip.wav; sourceTree = "<group>"; };
 		F1FB32B821F5D28100F1C819 /* dingwrong.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dingwrong.wav; sourceTree = "<group>"; };
@@ -57,6 +60,8 @@
 		F1C182B521EF9E1A0092808F = {
 			isa = PBXGroup;
 			children = (
+				F1F8AF6C21F676C900E09B42 /* Screenshot 2019-01-22 at 3.21.46 AM.png */,
+				F1F8AF6B21F674EB00E09B42 /* README.md */,
 				F1C182C021EF9E1A0092808F /* matchGame */,
 				F1C182BF21EF9E1A0092808F /* Products */,
 				F1FB32BE21F5D35B00F1C819 /* Frameworks */,
@@ -168,6 +173,7 @@
 			files = (
 				F1C182CC21EF9E1C0092808F /* LaunchScreen.storyboard in Resources */,
 				F1C182C921EF9E1C0092808F /* Assets.xcassets in Resources */,
+				F1F8AF6D21F676CA00E09B42 /* Screenshot 2019-01-22 at 3.21.46 AM.png in Resources */,
 				F1FB32BC21F5D28100F1C819 /* dingwrong.wav in Resources */,
 				F1FB32BD21F5D28100F1C819 /* shuffle.wav in Resources */,
 				F1C182C721EF9E1A0092808F /* Main.storyboard in Resources */,

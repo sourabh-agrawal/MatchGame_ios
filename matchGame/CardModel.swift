@@ -56,7 +56,7 @@ class CardModel {
             generatedArray[randomNo] = tempCard
         }
         
-//        return the array
+        //        return the array
         return generatedArray
     }
     
